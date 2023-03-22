@@ -1,2 +1,3 @@
 # Caleb
-C &amp; C++ projects
+C
+This repository contains basic C projects for a beginner.
