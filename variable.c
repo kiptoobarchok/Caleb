@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-  *main - int 
+  *int - main
   *
   *return -0
   */
@@ -15,7 +15,8 @@ int main ()
 	scanf("%d %d", &x, &y);
 
 	int sum = x + y;
-
+        
+	printf("the sum of x and y is : ");
 	printf("%d\n", sum);
 	
 	return 0;
