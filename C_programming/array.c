@@ -5,20 +5,17 @@
 
 int main()
 {
-	int age[] = {47,26,21,16};//preffered
-	age[0]=48;
+	int array[3][3] = {{13,24,376},{34,65,76},{879,28,19}};
 
-	printf("%d\n", age[0]);
+	printf("%d\n", array[2][2]);//access an element in an array
 
-	int height_feet[5];//array size and type cannot be changed 
-
-	height_feet[0]=34;
-	height_feet[1]=63;
-	height_feet[2]=43;
-	height_feet[3]=87;
-	height_feet[4]=65;
-
-	printf("%d\n", height_feet[2]);
+	for (int array_row = 0;array_row < 3; array_row++)//print all the elements in an array
+	{
+		for(int array_col = 0; array_col < 3;array_col++)
+		{
+			printf("%d\n",array[array_row][array_col]);
+		}
+	}
 
 	return 0;
 }
