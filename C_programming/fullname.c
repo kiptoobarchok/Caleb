@@ -6,7 +6,7 @@ int main()
 
 	printf("Enter your full name :\n");
 
-	fgets(name, sizeof(name),stdin);
+	scanf("%[^\n]%*c", name);
 
 	printf("Hello %s\nWelcome to our homepage!\n", name);
 
