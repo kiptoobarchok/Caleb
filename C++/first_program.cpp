@@ -5,12 +5,13 @@ int main()
 {
 	cout << "Hello Caleb\n";//prints out a string
 	cout << "Welcome to C++\n";
+    cout << "Enter your age\n";
 
-	int x = 5;//initializing a variable
+	int age;//initializing a variable
 
-	cin >> x;//asks the user to key in input 
+	cin >> age;//asks the user to key in input 
 
-	cout <<"x : " << x;//>>(input) <<(output)
+	cout <<"age : " << age;//>>(input) <<(output)
 
 	return 0;
 }
