@@ -1,22 +1,33 @@
 #include <stdio.h>
 
-//use various operators ie %, * , + ,-...
+/*use various operators ie %, * , + ,-,>,<,==,<=,>=,&&,++,--,
+ *
+ *
+ */
 
 int main()
 {
-	int studentA;
-	int studentB;
-	int studentC;
-	int sum;
+        int length,width;
+        int area = (length * width);
 
+        printf("Enter value length : \n");
+        scanf("%d", &length);
 
-	printf("enter the marks of the three students : \n");
+        getchar();
 
-	scanf("%d%d%d", &studentA, &studentB, &studentC);
+        printf("Enter value width : \n");
+        scanf("%d", &width);
 
-        sum = studentA + studentB + studentC ;
+        getchar();
 
-	printf("total sum : %d", sum);
+        printf("The area of the rectangle is :");
+        printf("%d", area);
 
-	return 0;
+        return 0;
 }
+
+
+
+
+
+
