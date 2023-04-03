@@ -7,7 +7,7 @@ int main()
 
 	age = 21; // assignment
 
-	cout << "age :" << age;
+	cout << "age :" << age << endl;
 
 	return 0;
 
