@@ -1,2 +1,0 @@
-C
-welcome to learning files in C!!

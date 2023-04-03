@@ -1,25 +1,12 @@
 #include <stdio.h>
-#include <stdlib.h>
+
 int main()
 {
-	FILE *fptr;
+        FILE * fptr;
 
-	*fptr = fopen("test.txt","r");
-        char line[100];
+        fptr = fopen("file.txt", "w");
 
-	while (!feof(fptr))
-	{
-		fgets(line,100,fptr);
-		puts(line);
-	}
+        fprintf(fptr, "Hello Caleb\nI see you like coding\nCoding is fun\n");
 
-	}
-
-
-
-	fclose(fptr);
-
-	return 0;
+        fclose(fptr);
 }
-
-
