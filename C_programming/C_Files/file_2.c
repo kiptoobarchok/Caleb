@@ -3,22 +3,17 @@
 int main()
 {
         FILE * fp;
-        char c;
 
-        fp = fopen("caleb.txt" , "r");
+        fp = fopen("caleb.txt" , "a");
+
+        fprintf(fp, "caleb is a programmer\n");
 
         if (fp == NULL)
         {
-                printf("File not found\n");
+                printf("Error. File not found\n");
         }
 
-        do  
-        {
-                c = getc(fp);
-                printf("%c", c);
-        }
-
-        while ( c != EOF);
+        
 
         fclose(fp);
 
