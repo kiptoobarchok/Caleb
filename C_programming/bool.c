@@ -8,11 +8,11 @@ int main ()
 
 	printf("%d\n", codingIsfun);
 	printf("%d\n", educationPays);
+	printf("I love coding : 1\n");
 
-	int a = 9;
-	int b = 6;
 
-	printf("%d\n", b < a);//prints 1 if true 0 if false 
+	printf("%d",codingIsfun);
+	printf("%d",educationPays);
 
 	return 0;
 }
