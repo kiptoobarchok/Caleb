@@ -15,7 +15,7 @@ int main()
 	cout << age << endl;
 	cout << grade << endl;
 	cout << is_true << endl;
-	cout << fixed << setprecision (8) << height << endl;
+	cout << height << endl;
 	cout << fixed << setprecision (8) << height_2<<endl;
 
 
