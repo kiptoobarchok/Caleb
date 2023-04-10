@@ -11,6 +11,8 @@ int main()
 
 	cin >> a >> b;
 
+	cout << "a :" << a << endl << "b :" << b << endl;
+
 	sum = (a+b);
 	diff = (a-b);
 	mult = (a*b);
