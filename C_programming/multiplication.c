@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*this program prints multiplication for any number between 1 and 10
+/*this program prints multiplication for any number between 1 and 100
  *ie 
  * a * 1
  * a * 2
