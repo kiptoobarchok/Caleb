@@ -8,5 +8,7 @@ int main()
 
 	string fullname = name.append(sec_name);
 
+	cout << "length of string : " << fullname.length() << endl;
+
 	cout << fullname << endl;
 }
