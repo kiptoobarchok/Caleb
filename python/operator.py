@@ -63,14 +63,3 @@ b = 21
 young = a if a < b else b
 print("The younger one is : %d" % young)
 print (any([False, False, False, False]))
-
-
-#operator function i python
-
-import operator
-
-a = 2
-b = 3
-
-print("sum is : ")
-print(operator.add(a, b))
