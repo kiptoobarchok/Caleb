@@ -1,6 +1,6 @@
 #!usr/bin/python3
 
-"""def greetings():
+def greetings():
    "This is docstring of greetings function"
    print ("Hello World")
    return None
@@ -20,7 +20,7 @@ def greet(name):
     return
 
 greet(input("enter name: "))
-"""
+
 
 #functions with return statements
 

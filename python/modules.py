@@ -9,12 +9,14 @@ def greet(name):
     print(f"Hi {name}")
     return
 
-def sum(a, b):
+def sum_add(a, b):
     c = a + b
     print(c)
 
 def mul(a, b):
-    return a * b
+    c = a * b
+    print(c)
 
 def mod(a, b):
-    return a % b
+    c = a % b
+    print(c)

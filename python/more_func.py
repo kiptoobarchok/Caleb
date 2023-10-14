@@ -30,4 +30,3 @@ def user_info(**data):
     print(data)
 
 user_info(id=2030, name="Caleb", age=22)
-print(type(data))

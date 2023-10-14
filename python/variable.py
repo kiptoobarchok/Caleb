@@ -25,7 +25,7 @@ def add(a, b):
 print(add.__doc__)
 print(add(3, 2))
 
-def sum():
+def sum(): #another way to declare a local variable
     a = 3
     b = 3
     sum = a + b
