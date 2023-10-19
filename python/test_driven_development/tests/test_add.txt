@@ -1,0 +1,15 @@
+"""
+import the module
+
+>>> Add = __import__('add').Add
+
+>>> Add(2, 2)
+4
+>>> Add(4, 3)
+7
+>>> Add(3, 'b')
+TracebackError: most recent call(last):
+    ...
+TypeError: b must be an integer
+
+"""
