@@ -1,11 +1,18 @@
 #!/usr/bin/python3
 
-class dog:
-    attr1 = "mammal"
-
+class robots:
+    __count = 0
     def __init__(self, name):
         self.name = name
+        type(self).__count += 1
+    
+    @staticmethod
+    def total_robots():
+        return robots.__count
+    
 
-dog_1 = dog('Luna')
-
-print(f"{dog_1.name} is a {dog_1.__class__.attr1}")
+a = robots("RGDX")
+print(robots.total_robots())
+b = robots("RGDX-2.0)")
+print(robots.total_robots())
+print(robots.total_robots())

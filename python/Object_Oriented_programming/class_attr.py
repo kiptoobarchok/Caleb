@@ -44,3 +44,4 @@ y= C()
 print("instance: " + str(C.count))
 x.__del__()
 print("instance: " + str(C.count))
+

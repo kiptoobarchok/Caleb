@@ -1,19 +1,35 @@
-#!/usr/bin/python3
+#1/usr/bin/python3
 
-#set()- returns set object from sequence discarding repeated elements
-# sequence − An object of list, tuple or str type
-#sets are unordered
-#only immutable objects can be used to create set object
+#sests = immutable , {}
 
-s2 = {1, 2, 3, 4, 4}
-print(s2)
-string = set('Caleb')
-string2 = set('Kiptoo')
-print(string)
-print('c' in string)
-string.add ('abu')
-print(string)
+set_1 = {"Rahul", "caleb" , "andrew", 25, 21, 26 , "daniel"}
+set_2 = {"Flossy", "Rose", 'Brenda' , 27}
 
-#accesing items in a set
-string3 = string.union(string2)
-print(string3)
+t_set = set_1 & set_2
+unionset = set_1.union(set_2 )
+hsh = set_1|set_2
+set_2.add("Bianca")
+print(t_set)
+
+for i in set_2:
+    print(i)
+
+print('\n')
+print(unionset)
+
+print('\n')
+print(hsh)
+
+set_1.add("peter")
+print(set_1)
+
+print('\n')
+st  = {161, 182, 161, 154, 176, 170, 167, 171, 170, 174}
+a = len(st)
+print(a)
+add_sum = sum(st)
+print(add_sum)
+av = (add_sum / a)
+print(av)
+
+
