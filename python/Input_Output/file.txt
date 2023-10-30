@@ -1,4 +1,0 @@
-Entire file
-first line
-second line
-last line
